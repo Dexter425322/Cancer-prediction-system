@@ -1,0 +1,91 @@
+# ==========================================
+# Python Bytecode & Cache
+# ==========================================
+_pycache_/
+*.py[cod]
+*$py.class
+*.so
+
+# ==========================================
+# Virtual Environments (Crucial to ignore)
+# ==========================================
+.venv/
+venv/
+ENV/
+env/
+.env/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# ==========================================
+# Environments, Secrets, & Local Settings
+# ==========================================
+.env
+.env.*
+.secrets
+*.local
+podman/
+local_settings.py
+db.sqlite3
+db.sqlite3-journal
+
+# ==========================================
+# Testing, Coverage, & Code Quality
+# ==========================================
+.htmlcov/
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.log
+.mypy_cache/
+.dmypy.json
+dmypy.json
+.pytest_cache/
+.ruff_cache/
+.pyre/
+.pytype/
+
+# ==========================================
+# IDEs & Text Editors
+# ==========================================
+# VS Code
+.vscode/
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+# PyCharm / JetBrains
+.idea/
+
+# Jupyter Notebooks
+.ipynb_checkpoints
+
+# ==========================================
+# Operating System Artifacts
+# ==========================================
+.DS_Store
+.DS_Store?
+Thumbs.db
+ehthumbs.db
